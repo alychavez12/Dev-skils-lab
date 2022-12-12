@@ -2,6 +2,11 @@
     box-sizing: content-box;
   }
 
+html {
+ border: solid 5px lightgrey;
+
+}
+
 body {
  display: flexbox;
  padding: 20%;
@@ -12,25 +17,28 @@ body {
 
 
 h1 {
-    text-align: center;
+    
     color: white;
+    text-align: center;
     background-color: rgb(150, 198, 125);
     width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    height: 35px;
+    font-family:Helvetica;
+    padding:20px;
 
   }
 
  
 
 #input {
-    border: 3px solid rgb(150, 198, 125);
+    border: 5px solid rgb(150, 198, 125);
     width: 57%;
     height: 40px;
    
 }
 
 #buttom {
-    border: 3px solid rgb(150, 198, 125);
+    border: 5px solid rgb(150, 198, 125);
     background-color: white;
     color: rgb(150, 198, 125);
     width: 32%;
@@ -41,12 +49,11 @@ h1 {
 
 ul {
     list-style: none;
-    padding: 5%;
 }
 
 #icon {
   color: #fff;
-  margin-right: 10px;
+  margin: 10px ;
   text-align: center;
   background-color: red;
   padding: 5px;
